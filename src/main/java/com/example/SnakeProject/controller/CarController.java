@@ -14,6 +14,8 @@ import java.util.List;
 @Slf4j
 public class CarController {
     private final CarService carService;
+		System.out.println(1);
+
 
     @GetMapping("/cars")
     public List<CarDto> getCars(){

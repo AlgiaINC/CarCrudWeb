@@ -12,6 +12,8 @@
 	<artifactId>CarDTO</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CarDTO</name>
+	System.out.println(1);
+
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>

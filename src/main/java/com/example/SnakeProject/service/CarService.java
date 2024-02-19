@@ -15,6 +15,8 @@ public class CarService {
     public CarDto get(Integer id){
         return carRepository.get(id);
     }
+		System.out.println(1);
+
 
     public void add(Integer id, CarDto carDto){
         carRepository.add(id, carDto);
