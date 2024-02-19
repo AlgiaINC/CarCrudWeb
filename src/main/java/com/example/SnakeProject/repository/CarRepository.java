@@ -22,7 +22,6 @@ public class CarRepository {
     public void delete(Integer id){
         database.remove(id);
     }
-		System.out.println(1);
 
 
     public List <CarDto> getAll(){
